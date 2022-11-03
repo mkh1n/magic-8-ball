@@ -12,7 +12,11 @@
     90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
     100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
     }
-
+html, body {
+        /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -23,6 +27,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+
 }
 #magic-ball{
     margin-top: 30px;
@@ -70,7 +75,6 @@
 #answer{
     font-weight: 400;
     font-size: 23px;
-
 }
 #eight{
     font-size: 70px;
@@ -87,29 +91,29 @@
 }
 
 @media(max-width: 842px) {
-    .container{
-        width: 100vw;
-    }
     #magic-ball{
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     }
     #eight{
         font-size: 45px;
     }
     #answer-box{
-        width: 85px;
-        height: 85px;
+        width: 120px;
+        height: 120px;
         font-size: 20px;
     }
+    #answer{
+        font-size: 18px;
+    }
     #question{
-        font-size: 10px;
+        font-size: 13px;
     }
     h1{
         font-size: 25px;
     }
     .paragraph{
-        margin: 40px 50px;
+        margin: 40px;
         font-size: 20px;
         text-align: center;
     }
