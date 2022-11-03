@@ -24,6 +24,8 @@ window.onload = function() {
                 }, 1000);
             
             magicball.classList.toggle("active");
+            eight.innerText = "8";
+            answer.innerText = '';
             
 
         }
