@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <link href="style.css" rel=" stylesheet" type=" text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Магический шар</h1>
+            <p class="paragraph">Задай мне свой заветный вопрос, на который можно ответить "да" или "нет"</p>
+            <input type="text" id="question" placeholder="Вопрос" onsubmit = fnc()>
+            <div id="magic-ball" id="magic-ball">
+                <div id="answer-box">
+                    <p id="eight">8</p>
+                    <p id="answer"></p>
+                </div>
+            </div>
+            <a class="github" href="https://github.com/moxa-rumin/magic-8-ball">GitHub</a>
+        </div>
+        
+        <script src="answer.js"></script>
+    </body>
+</HTML>
