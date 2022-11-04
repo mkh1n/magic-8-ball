@@ -97,6 +97,7 @@ html, body {
     #magic-ball{
     height: 250px;
     width: 250px;
+    min-height: 250px
     }
     #eight{
         font-size: 45px;
@@ -128,6 +129,6 @@ html, body {
     #magic-ball{
         height: 250px;
         width: 250px;
-        min-height: 25;
+        min-height: 250px;
         }
 }
